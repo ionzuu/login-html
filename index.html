@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link rel="stylesheet" href="include/css/l.css">
+
+	<title>.: - - - :.</title>
+</head>
+<body>
+		<!--  Inicio de Loader  -->
+        <div class="lds-dual-ring loader" id="loader"></div>
+		<script src="include/js/loader.js"></script>
+		<!--  Fin de loader  -->
+
+		<!-- Inicio de Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">T i t l e</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarColor01">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Blogs</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">About us</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contact</a>
+				</li>
+			  </ul>
+			  <form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+			  </form>
+			</div>
+		  </nav>
+		<!-- Fin de Navbar -->
+
+
+			<!--  Inicio de Recuadro Log in | En action es: trx/verify.php, pero falta crearlo todo -->
+		<div class="container-login">
+			<div class="container" id="container">
+				<div class="row">
+				<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+					<div class="card card-signin my-5">
+					<div class="card-body">
+						<h5 class="card-title text-center">Log In</h5>
+						<form class="form-signin" action="" method="">
+						<div class="form-label-group">
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+							<label for="inputEmail">Email address</label>
+						</div>
+
+						<div class="form-label-group">
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+							<label for="inputPassword">Password</label>
+							<span id="mensaje"></span>
+						</div>
+						
+						<button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Log in</button>
+						<hr class="my-4">
+						<button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Log in with Google</button>
+						<button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Log in with Facebook</button>
+						</form>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<script src="include/js/index.js"></script>
+		<!--  Fin de Recuadro Log in  -->
+  
+</body>
+</html>
